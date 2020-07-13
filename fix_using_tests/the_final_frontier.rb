@@ -13,7 +13,7 @@ def crew
   ["Picard", "Spock", "Worf"]
 end
 
-def greet_crew(crew)
+def greet_crew (crew)
   crew.each {|crew| "Hello #{crew}."}
 end
 
