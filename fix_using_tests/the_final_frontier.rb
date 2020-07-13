@@ -13,8 +13,9 @@ def crew
   ["Picard", "Spock", "Worf"]
 end
 
-def crew_greeting (crew)
-  crew.each
+def greet_crew (crew)
+  crew.each {|crew| "Hello #{crew}."}
+end
 
 def engage
   puts state_log(date)
